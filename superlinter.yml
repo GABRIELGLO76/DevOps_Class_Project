@@ -6,7 +6,7 @@ on: push
 jobs: 
   super-lint: 
     name: Lint code base
-    runs-on: ubuntu-22.04
+    runs-on: windows-2022
     steps:
       - name: Check out code
         uses: actions/checkout@v2
